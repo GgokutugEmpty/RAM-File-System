@@ -3,8 +3,8 @@
 CC=gcc
 CFLAGS="-Wall -Wextra -std=c11"
 
-SRC="main.c"
-OUT="ramdisk"
+SRC="ramfs.c"
+OUT="ramfs"
 
 rm -f $OUT
 
