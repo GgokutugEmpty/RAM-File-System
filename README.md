@@ -43,4 +43,4 @@ The file system uses a fixed-size RAM disk with up to `MAX_FILES` entries. Each 
 1. **Compile the Code**:
 
    ```sh
-   gcc -o ramdisk ramdisk.c
+   sh build.sh
